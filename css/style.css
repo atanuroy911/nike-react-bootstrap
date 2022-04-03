@@ -1,0 +1,79 @@
+/* Custom Style Sheet */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap');
+
+:root{
+    --accent-color: #FA804C;
+    --secondary-accent-color: #363958;
+    --text-color: #3E3E3E;
+    --primary-button-bg: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+}
+
+/* primary tags */
+
+body{
+    font-family: 'Roboto';
+    color: var(--text-color);
+}
+
+header{
+    background-color: #FFF9F4;
+}
+nav{
+    font-weight: 500;
+}
+
+.font-bebas{
+    font-family: 'Bebas Neue';
+}
+
+.hero-title-ln1, .hero-title-ln2{
+    font-family: 'Bebas Neue';
+    color: var(--accent-color); 
+    font-size: 80px;
+}
+
+.hero-title-ln2{
+    color: var(--secondary-accent-color);
+}
+
+.btn-buy {background-image: var(--primary-button-bg)}
+.btn-buy {
+   margin: 10px;
+   width: 170px;
+   height: 60px;
+   padding: 15px 25px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-buy:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ .bg-card{
+    background-color: #F1F1F1;
+ }
+
+ .w-90{
+     width: 95% !important;
+ }
+
+ .product-price{
+    color: var(--accent-color);
+    font-weight: 900;
+    font-size: 36px;
+ }
+
+ .rounded-20p{
+     border-radius: 20px;
+ }
+
